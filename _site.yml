@@ -2,8 +2,24 @@ name: "Sofia's Professional Portfolio"
 navbar:
   title: "My Website"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+  - text: Home
+    href: index.html
+    icon: fa-home
+  - text: Resume
+    href: files/resume.pdf
+    icon: fa-file
+  - text: Projects
+    href: projects.html
+    icon: fa-computer
+  right:
+  - href: https://www.linkedin.com/in/sofiacharlot/
+    icon: fa-linkedin
+  - href: https://github.com/S-charlo
+    icon: fa-github
 output_dir: docs
+output:
+  html_document:
+    theme: cosmo
+    css: style.css
+    includes:
+      in_header: header.html
