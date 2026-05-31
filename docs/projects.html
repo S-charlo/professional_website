@@ -11,7 +11,7 @@
 
 
 
-<title>Projects</title>
+<title>projects.knit</title>
 
 <script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -290,128 +290,439 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<div class="container">
-<!-- Project 1 (panel left, text right) -->
-<div class="row project-row">
-<div class="col-sm-6">
-<div class="panel panel-default">
-<div class="panel-heading">
-<h3 class="panel-title">
-Master’s Thesis
+
+<div class="container-fluid projects-page">
+
+<!-- ====================================== -->
+<!-- CATEGORY NAVIGATION CARDS -->
+<!-- ====================================== -->
+
+<div class="row category-nav-row">
+
+<div class="col-sm-3">
+<div class="category-nav-card">
+<i class="fa-solid fa-chart-column"></i>
+<a href="#" class="category-nav-link" data-target="quantitative-body">
+<h3><strong>Quantitative Research</strong></h3>
+</a>
+<p>Statistical modeling, spatial analysis, data visualization, Complex Survey Analysis, R, SAS, Python, ArcGIS, Tableau, Git/GitHub, Flexdashboards, Machine Learning, Linux </p>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="category-nav-card">
+<i class="fa-solid fa-comments"></i>
+<a href="#" class="category-nav-link" data-target="qualitative-body">
+<h3><strong>Qualitative Research</strong></h3>
+</a>
+<p>Interviews, Focus Groups, Thematic Coding & Analysis, Document Analysis, Theoretical & Conceptual Frameworks, Ethnography, MAXQDA, Qualtrics, Canva </p>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="category-nav-card">
+<i class="fa-solid fa-comments"></i>
+<a href="#" class="category-nav-link" data-target="program-body">
+<h3><strong>Program Planning & Evaluation</strong></h3>
+</a>
+<p>
+Logic Models, Intervention Design, Implementation Planning, Recommendations, Partner Engagement
+</p>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="category-nav-card">
+<i class="fa-solid fa-people-group"></i>
+<a href="#" class="category-nav-link" data-target="community-body">
+<h3><strong>Community Engagement</strong></h3>
+</a>
+<p>Community Organizing, Volunteering, Mutual Aide, Community Needs/Asset Assessments, Community-Based Participatory Research</p>
+</div>
+</div>
+
+</div>
+
+<!-- ====================================== -->
+<!-- ACCORDION -->
+<!-- ====================================== -->
+
+<div class="accordion">
+
+<!-- QUANTITATIVE -->
+<div class="accordion-item">
+
+<button class="accordion-header active" data-target="quantitative-body">
+<i class="fa-solid fa-chart-column"></i>
+Quantitative Research
+</button>
+
+<div id="quantitative-body" class="accordion-body open">
+
+<div class="project-card">
+
+<h3>
+<a href="https://etd.library.emory.edu/concern/etds/xd07gv41j?locale=en">
+Master's Thesis
+</a>
 </h3>
-</div>
-<div class="panel-body">
-<p>
-<a href="https://etd.library.emory.edu/concern/etds/xd07gv41j?locale=en">Community
-Assets Rooted in Place: Associations Between Local Food Systems and Food
-Insecurity in Metro Atlanta</a>
-</p>
-<p>
-<a href="https://s-charlo.github.io/thesis_dashboard/">Interactive
-infographic for the thesis</a>
-</p>
-</div>
-</div>
-</div>
-<div class="col-sm-6">
-<div class="project-description">
+
 <p>
 This project examines the relationship between food insecurity and the
-spatial distribution of local food system components using statistical
-analysis and thematic mapping in R.
+spatial distribution of local food system components using statistical analysis and thematic mapping in R.
 </p>
-</div>
-</div>
-</div>
-<!-- Project 2 (text left, panel right) -->
-<div class="row project-row">
-<div class="col-sm-6">
-<div class="project-description">
+<br>
 <p>
-This project explores the relationship between chronic illness
-multimorbidity and long-term COVID effects within adults in the United
-States using statistical analysis in SAS.
+Use this <a href="https://s-charlo.github.io/thesis_dashboard/">interactive infographic</a> to explore the topics from this master's thesis.
 </p>
+
+
+
 </div>
-</div>
-<div class="col-sm-6">
-<div class="panel panel-default">
-<div class="panel-heading">
-<h3 class="panel-title">
-Post Board Presentation
+
+<div class="project-card">
+
+<h3>
+<a href="files/poster_board.pdf">
+Persistent Predictors and Persistent COVID
+</a>
 </h3>
-</div>
-<div class="panel-body">
+
 <p>
-<a href="files/poster_board.pdf">Persistent Predictors and Persistent
-COVID: An analysis of Long-term COVID Effects, Chronic Health
-Conditions, and Sociodemographic Characteristics of US Adults</a>
+This project explores the relationship between chronic illness multimorbidity and long-term COVID effects within adults in the United States using statistical analysis in SAS.
 </p>
+
 </div>
-</div>
-</div>
-</div>
-<!-- Project 3 (panel left again) -->
-<div class="row project-row">
-<div class="col-sm-6">
-<div class="panel panel-default">
-<div class="panel-heading">
-<h3 class="panel-title">
-Post Board Presentation
+
+<div class="project-card">
+
+<h3>
+<a href="files/python_board.pdf">
+Exploring Predictors of Food Insecurity
+</a>
 </h3>
-</div>
-<div class="panel-body">
+
 <p>
-<a href="files/python_board.pdf">An Exploratory Analysis of Food
-Insecurity and Associated Factors in Metro Atlanta</a>
+This project is an exploratory analysis of the factors associated with food insecurity using statistical analysis and thematic mapping in Python.
 </p>
+
+</div>
+
 </div>
 </div>
-</div>
-<div class="col-sm-6">
-<div class="project-description">
+
+<!-- QUALITATIVE -->
+<div class="accordion-item">
+
+<button class="accordion-header" data-target="qualitative-body">
+<i class="fa-solid fa-comments"></i>
+Qualitative Research
+</button>
+
+<div id="qualitative-body" class="accordion-body">
+
+<div class="project-card">
+
+<h3>
+<a href="files/mini_study.pdf">
+A Qualitative Analysis of Community Food, Systems, and Care
+</a>
+</h3>
+
 <p>
-This project is an exploratory analysis of the factors associated with
-food insecurity using statistical analysis and thematic mapping in
-Python.
+An qualitative analysis of the roles that agricultural community organizers have in creating a communal food system that operates parallel to a commercial food system in Metro Atlanta. It explores their perceived role in Metro Atlanta food systems and addressing food insecurity.
 </p>
+
 </div>
-</div>
-</div>
-<!-- Project 4 (text left again) -->
-<div class="row project-row">
-<div class="col-sm-6">
-<div class="project-description">
+
+<div class="project-card">
+
+<h3>
+<a href="files/emerson_report.pdf">
+A Qualitative Analysis of Racial Equity in the Anti-Hunger Workplace
+</a>
+</h3>
+
 <p>
-This project is a conceptual model of constructs from various public
-health theories/frameworks across each level of the Social Ecological
-Model. It demonstrates a conceptual rationale for the desired outcome of
-the health-seeking behavior of accessing doula care.
+This research was a strategic effort to look at the current state, successes, failures, and possible improvements to the movement to end hunger in the United States. This study interrogated the plans, policies, and strategies of organizational approaches to addressing race in the workplace using survey data collection and semi-structured interviews. It also captured how anti-hunger staff and leadership fueled, experienced, and perceived those efforts. 
 </p>
+
 </div>
-</div>
-<div class="col-sm-6">
-<div class="panel panel-default">
-<div class="panel-heading">
-<h3 class="panel-title">
+
+<div class="project-card">
+
+<h3>
+<a href="files/concept_map.pdf">
 Conceptual Map Construction
+</a>
 </h3>
-</div>
-<div class="panel-body">
+
 <p>
-<a href="files/concept_map.pdf">Doula Care: Addressing the Black
-Maternal Mortality Crisis in Georgia</a>
+This project is a conceptual model of constructs from various public health theories/frameworks across each level of the Social Ecological Model. It demonstrates a conceptual rationale for the desired outcome of the health-seeking behavior of accessing doula care.
 </p>
+
+</div>
+
 </div>
 </div>
+
+<!-- PROGRAMM PLANNING & EVAL -->
+<div class="accordion-item">
+
+<button class="accordion-header" data-target="program-body">
+<i class="fa-solid fa-scale-balanced"></i>
+Program Planning & Evaluation
+</button>
+
+<div id="program-body" class="accordion-body">
+
+<div class="project-card">
+
+<h3>
+<a href="files/lrrp_report.pdf">
+Program Evaluation for the Atlanta Beltline Partnership
+</a>
+</h3>
+
+<p>
+This is a mixed-methods formative evalution of the Legacy Residential Retention Program's effect (outcomes and impact) on participants' quality of life, measured by improvements to program participants' financial and emotional well-being. The Legacy Residential Retention Program aims to address displacement cause by redevelopment by paying the difference in property tax increases for eligible residents in Atlanta Beltline neighborhoods. 
+</p>
+<br>
+<p>
+See the <a href="files/lrrp_es.pdf">executive summary</a> and <a href="files/lrrp_infographic.pdf">infographic</a> produced from the program evaluation findings.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>
+<a href="files/program_plan.pdf">
+Program Planning: Burke’s Birth & Wellness Mobile Clinic
+</a>
+</h3>
+
+<p>
+This plan offers a detailed description of a public health program aimed at bringing mobile maternal care to a maternal care desert. The plan includes a robust justification, a program-specific logic model, a work plan, an evaluation plan, a project timeline, and a budget.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>
+<a href="summer_ebt.pdf">
+2024 Summer EBT Implementation Report
+</a>
+</h3>
+
+<p>
+This mixed-methods study evaluated Summer EBT implementation in Ohio in 2024, and how the program impacted eligible families. Findings were used to generate recommendations for the Ohio Department of Education and Workforce (ODEW) and the
+Ohio Department of Job and Family Services (ODJFS) on how to strengthen the Summer EBT program in future years.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>
+<a href="files/snap_et.pdf">
+SNAP Employment and Training Program: Best E&T practices for Ohio
+</a>
+</h3>
+
+<p>
+The Ohio Department of Jobs and Family Services convened a SNAP E&T Redesign Workgroup in August 2023 alongside approximately 40 stakeholders. Community Solutions was specifically invited to share SNAP E&T best practices from across the country for consideration by the workgroup. After presenting this research to the workgroup, Community Solutions published this paper to share lessons learned with all interested Ohioans to ensure the next generation of Ohio’s SNAP E&T program provides high-quality services and supports to job seekers and employers alike.
+</p>
+
+</div>
+
 </div>
 </div>
+
+
+<!-- COMMUNITY -->
+<div class="accordion-item">
+
+<button class="accordion-header" data-target="community-body">
+<i class="fa-solid fa-people-group"></i>
+Community Engagement
+</button>
+
+<div id="community-body" class="accordion-body">
+
+<div class="project-card">
+
+<h3>
+<a href="https://www.instagram.com/greene.clothe/">
+The Greene Clothe Collective
+</a>
+</h3>
+
+<p>
+Greene Clothe is a Black eco-feminist collective that champions sustainable food production as a praxis of racial, social, and environmental liberation. We co-create mutual-aid, community building, land preservation, and cultural celebration efforts between Black farmers and folks who love the earth via volunteer days, farm tours, and excursions in Atlanta and the Geechee land of Sapelo Island. Our work prioritizes racial justice, farmer solidarity, food abundance, and ecological restoration.
+</p>
+
 </div>
+
+<div class="project-card">
+
+<h3>
+<a href="files/community_assessment.pdf">
+Community Needs Assessment for Emory Recreation & Wellness
+</a>
+</h3>
+
+<p>
+The purpose of this community assessment is to gain a deeper understanding of the patterns of participation in group fitness classes among student and non-student members of Emory Recreation and Wellness facilities to generate actionable recommendations for supporting both individual health and community well-being.
+</p>
+
+</div>
+
+</div>
+</div>
+
+<style>
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+}
+
+.accordion-header {
+  width: 100%;
+  text-align: left;
+
+  border: none;
+  outline: none;
+
+  padding: 14px 15px;
+
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  background-color: #f5f5f5;
+  color: #000;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.accordion-header:hover {
+  background-color: #eeeeee;
+}
+
+.accordion-header.active {
+  background-color: #e9e9e9;
+}
+
+.accordion-body {
+  display: none;
+  padding-top: 15px;
+}
+
+.accordion-body.open {
+  display: block;
+}
+
+.project-card {
+  margin-bottom: 25px;
+  padding: 15px;
+
+  border-radius: 8px;
+  background: #fff;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card p {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+const headers = document.querySelectorAll(".accordion-header");
+const navLinks = document.querySelectorAll(".category-nav-link");
+
+function openAccordion(targetId) {
+
+document.querySelectorAll(".accordion-body").forEach(function(body) {
+body.classList.remove("open");
+});
+
+document.querySelectorAll(".accordion-header").forEach(function(header) {
+header.classList.remove("active");
+});
+
+const targetBody = document.getElementById(targetId);
+
+if (targetBody) {
+
+targetBody.classList.add("open");
+
+const matchingHeader = document.querySelector(
+'.accordion-header[data-target="' + targetId + '"]'
+);
+
+if (matchingHeader) {
+matchingHeader.classList.add("active");
+
+matchingHeader.scrollIntoView({
+behavior: "smooth",
+block: "start"
+});
+}
+
+}
+}
+
+headers.forEach(function(header) {
+
+header.addEventListener("click", function() {
+
+const targetId = this.getAttribute("data-target");
+
+openAccordion(targetId);
+
+});
+
+});
+
+navLinks.forEach(function(link) {
+
+link.addEventListener("click", function(e) {
+
+e.preventDefault();
+
+const targetId = this.getAttribute("data-target");
+
+openAccordion(targetId);
+
+});
+
+});
+
+});
+
+</script>
 
 
 

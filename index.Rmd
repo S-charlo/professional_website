@@ -10,23 +10,29 @@ title:
   
   <!-- Left Column -->
 <div class="left-column">
-<h1>Professional Portfolio</h1>
+<h1><strong>Welcome to my Professional Portfolio</strong></h1>
 <img src="images/headshot.jpg" width=100%>
 <div class="name-header">Sofia Charlot, MPH</div>
+
+<p>
+Behavioral, Social, & Health Education Sciences
+<br>
+Certificate in Data Science
+</p>
 </div>
 
   <!-- Right Column -->
 <div class="right-column">
 <div class="text-box">
-<h2>About</h2>
+<h2><strong>Professional Objective</strong></h2>
 <p>
  I am social scientist with a passion for qualitative and quantitative public health research concerning local food systems, food security, and social justice. 
 
-As Research Analyst, I support the design, execution, and analysis of quantitative and qualitative research projects – synthesizing policy and raw data to develop high-quality written material for clients.
+As Research Analyst, I support the design, execution, and analysis of quantitative and qualitative research projects – synthesizing policy and raw data to develop high-quality reports, dashboards, and training materials that clients use to effect legislative change.
 
-As a graduate student, I furthered my expertise in research methodology, with a focus on data science, public health theory, and community-engaged research.
+As a graduate student, I furthered my expertise in research methodology, with a focus on data science, the social determinants of health, and community-engaged research.
 
-With a background in mutual aid efforts between Black youth and Black Farmers in Atlanta, I am dedicated to uprooting oppressive systems, institutions, and practices while supporting initiatives that create food abundance for all people.
+With a background in mutual aid efforts between Black youth and Black Farmers in Atlanta, I am dedicated to uprooting oppressive systems, institutions, and practices while supporting initiatives that create food abundance and better health outcomes for all people.
 </p>
 </div>
 </div>
