@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 ---
 
 ```{r, echo=FALSE, fig.align='center', out.width='100%'}
@@ -29,7 +29,7 @@ Certificate in Data Science
 
 As Research Analyst, I support the design, execution, and analysis of quantitative and qualitative research projects – synthesizing policy and raw data to develop high-quality reports, dashboards, and training materials that clients use to effect legislative change.
 
-As a graduate student, I furthered my expertise in research methodology, with a focus on data science, the social determinants of health, and community-engaged research.
+As a recent graduate, I furthered my expertise in research methodology, with a focus on data science, the social determinants of health, and community-engaged research.
 
 With a background in mutual aid efforts between Black youth and Black Farmers in Atlanta, I am dedicated to uprooting oppressive systems, institutions, and practices while supporting initiatives that create food abundance and better health outcomes for all people.
 </p>
