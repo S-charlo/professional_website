@@ -10,9 +10,8 @@ title:
   
   <!-- Left Column -->
 <div class="left-column">
-<h1><strong>Welcome to my Professional Portfolio</strong></h1>
 <img src="images/headshot.jpg" width=100%>
-<div class="name-header">Sofia Charlot, MPH</div>
+<div class="name-header"><h1><strong>Sofia Charlot, MPH</strong></h1></div>
 
 <p>
 Behavioral, Social, & Health Education Sciences

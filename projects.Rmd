@@ -30,7 +30,7 @@
 
 <div class="col-sm-3">
 <div class="category-nav-card">
-<i class="fa-solid fa-comments"></i>
+<i class="fa-solid fa-clipboard"></i>
 <a href="#" class="category-nav-link" data-target="program-body">
 <h3><strong>Program Planning & Evaluation</strong></h3>
 </a>
@@ -179,7 +179,7 @@ This project is a conceptual model of constructs from various public health theo
 <div class="accordion-item">
 
 <button class="accordion-header" data-target="program-body">
-<i class="fa-solid fa-scale-balanced"></i>
+<i class="fa-solid fa-clipboard"></i>
 Program Planning & Evaluation
 </button>
 
